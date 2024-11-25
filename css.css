@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+
+.dimlk {
+    width:  300px;
+    display: block;
+    margin-top: 20px;
+}
+
+.grumpy{
+    width: 300px;
+    height: 170px;
+    display: block;
+    margin-top: 20px;
+    object-fit:cover;
+}
+
+.search {
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(44, 44, 44); 
+    width: 500px;
+} 
+
+.video-name, .auteur , .vu {
+    color: white;
+}
+
+.video-preview {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.pp{
+    width: 75%;
+    border-radius: 50px;
+}
+
+.channel-picture {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-info{
+    display: inline-block;
+    width: 150px;
+}
+
+.video-name {
+    margin-top: 0 ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.row-1 {
+    margin-bottom: 12px;
+}
+
+.auteur{
+    font-size: 12px;
+    color: darkgray;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.vu{
+    font-size: 12px;
+    color: darkgray;
+    margin-top: 0;
+}
+
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
